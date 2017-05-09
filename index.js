@@ -11,7 +11,7 @@ import CarouselView from './carousel-view.vue';
 
 
 if (typeof window !== 'undefined') {
-	window.Swiper = Swiper
+    window.Swiper = Swiper
 }
 
 const install = (Vue) => {
@@ -30,4 +30,3 @@ export {
     CarouselItem,
     swiperPlugins
 }
-
