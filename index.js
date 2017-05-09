@@ -17,14 +17,17 @@ if (typeof window !== 'undefined') {
 const install = (Vue) => {
     Vue.component('carousel-view', CarouselView)
     Vue.component('carousel-item', CarouselItem)
-}
+};
 
 export default{
     install
 }
 
+const swiperPlugins = Swiper.prototype.plugins;
+
 export {
     CarouselView,
     CarouselItem,
+    swiperPlugins
 }
 
